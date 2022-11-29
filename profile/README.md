@@ -20,4 +20,4 @@ but you can modify the firmware changing the protocol to control you specific mo
 Feel free to extend this project to match your requirements.
 
 
-**For the full README and documentation check [HERE](https://github.com/home-anthill/docs)**
+## **Full documentation [HERE](https://github.com/home-anthill/docs)**

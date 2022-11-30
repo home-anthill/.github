@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://github.com/Ks89/air-conditioner/blob/master/docs/icons/logo512.png?raw=true" alt="ks89/home-anthill" width="220">
+  <img src="https://github.com/home-anthill/docs/blob/master/icons/logo512.png?raw=true" alt="ks89/home-anthill" width="220">
   <br>
   <br>
 Home Anthill
@@ -9,7 +9,7 @@ Home Anthill
 
 home-anthill is a project to control your home remotely with ESP32 devices.
 
-There are 2 types of devices that I call in this way:
+There are 2 types of devices. I chose this categorization:
 - `devices`: ESP32 devices to control something, like Air Conditioners.
 - `sensors`: ESP32 devices to read physical phenomenons like temperature, humidity, air quality.
 
@@ -19,5 +19,6 @@ but you can modify the firmware changing the protocol to control you specific mo
 `Sensors` can read temperature, humidity, light (lux), air quality, motion, air pressure.
 Feel free to extend this project to match your requirements.
 
+On server-side, I'm using a Kubernetes cluster with a simple microservice architecture.
 
 ## **Full documentation [HERE](https://github.com/home-anthill/docs)**

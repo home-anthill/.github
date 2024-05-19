@@ -13,7 +13,7 @@ There are 2 types of devices. I chose this categorization:
 - `devices`: ESP32 devices to control something, like Air Conditioners.
 - `sensors`: ESP32 devices to read physical phenomenons like temperature, humidity, air quality.
 
-At the moment, the only supported `device` is the one to control `Beko air conditioner (Remote type: RG52A9/BGEF)`,
+At the moment, the only supported `device` are the one to control either `Beko air conditioner (Remote type: RG52A9/BGEF)` or `LG air conditioner (Remote type: AKB74955603)`,
 but you can modify the firmware changing the protocol to control you specific model, if supported by [`crankyoldgit/IRremoteESP8266`](https://github.com/crankyoldgit/IRremoteESP8266).
 
 `Sensors` can read temperature, humidity, light (lux), air quality, motion, air pressure.
